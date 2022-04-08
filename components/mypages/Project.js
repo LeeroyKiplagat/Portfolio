@@ -1,4 +1,9 @@
 import React from "react";
+import Image from "next/image";
+import Hulu from '../../public/images/hulu.png';
+import Spotify from '../../public/images/spotify.png';
+import Instagram from '../../public/images/instagram.png';
+import Portfolio from '../../public/images/portfolio.png';
 
 function Project() {
   return (
@@ -11,7 +16,16 @@ function Project() {
         <div className="flex items-center justify-center">
           <div className="grid md:grid-cols-2 m-12">
             <div className="">
-              <div className="project"></div>
+              <div className="project">
+                <Image
+                  src={Instagram}
+                  layout="responsive"
+                  alt="Instagram"
+                  width={1920}
+                  height={1200}
+                  className='rounded-md shadow-lg'
+                />
+              </div>
               <div className="project-info">
                 <h1>Title:</h1>
                 <h1>Instagram Clone</h1>
@@ -19,7 +33,16 @@ function Project() {
               <a href="" className="ml-4">Git repo of Instagram clone</a>
             </div>
             <div>
-              <div className="project"></div>
+              <div className="project">
+              <Image
+                  src={Spotify}
+                  layout="responsive"
+                  alt="Instagram"
+                  width={1920}
+                  height={1200}
+                  className='rounded-md shadow-lg'
+                />
+              </div>
               <div className="project-info">
                 <h1 className="">Title:</h1>
                 <h1>Spotify Clone</h1>
@@ -27,7 +50,16 @@ function Project() {
               <a href="" className="ml-4">Git repo of Spotify clone</a>
             </div>
             <div>
-              <div className="project"></div>
+              <div className="project">
+              <Image
+                  src={Hulu}
+                  layout="responsive"
+                  alt="hulu"
+                  width={1920}
+                  height={1200}
+                  className='rounded-md shadow-lg mt-2'
+                />
+              </div>
               <div className="project-info">
                 <h1>Title:</h1>
                 <h1>Hulu Clone</h1>
@@ -35,7 +67,16 @@ function Project() {
               <a href="" className="ml-4">Git repo of Hulu clone</a>
             </div>
             <div>
-              <div className="project"></div>
+              <div className="project">
+              <Image
+                  src={Portfolio}
+                  layout="responsive"
+                  alt="Portfolio"
+                  width={1920}
+                  height={1200}
+                  className='rounded-md shadow-lg mt-2 ease-in-out'
+                />
+              </div>
               <div className="project-info">
                 <h1>Title:</h1>
                 <h1>Portfolio Website</h1>
