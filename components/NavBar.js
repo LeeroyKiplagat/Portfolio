@@ -13,7 +13,7 @@ import NavBarItem from "./NavBarItem";
 function NavBar() {
   const router = useRouter();
   return (
-    <nav className="flex items-center justify-center h-auto fixed z-10 w-screen bg-white shadow-inner shadow-black">
+    <nav className="flex items-center justify-center h-auto fixed z-10 w-max bg-white shadow-inner shadow-black">
       <div className="grid md:grid-cols-2">
         <div className=" flex items-center justify-center">
           <h1 className=" font-bold uppercase text-red-600 text-lg md:text-2xl lg:text-4xl">
