@@ -14,13 +14,13 @@ function HomePage() {
           </h1>
           <h2 className="font-bold text-lg">I am a Web Developer</h2>
           <p className="text-center font-semibold">
-            I'm a Web Developer with extensive experience for over 3 years. My
+            I&apos;m a Web Developer with extensive experience for over 3 years. My
             expertise is to create and design websites, graphic design and many
             more...
           </p>
         </div>
         <div className=" flex items-center justify-center object-fill lg:mr-[350px]">
-          <Image src={homeBg} alt="Art" height={500} width={500}/>
+          <Image src={homeBg} alt="Art" height={500} width={500} />
         </div>
       </div>
     </div>
