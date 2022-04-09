@@ -9,7 +9,7 @@ import {
 } from "@heroicons/react/outline";
 function Services() {
   return (
-    <div className="h-auto">
+    <div id="services" className="h-auto">
       <div className="title">
         <h1 className="mt-24">My</h1>
         <h1 className="text-red-600 ml-2 mt-24  ">Services</h1>

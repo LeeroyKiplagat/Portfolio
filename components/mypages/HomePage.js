@@ -5,9 +5,9 @@ import homeBg from "../../public/images/homebg.png";
 
 function HomePage() {
   return (
-    <div>
+    <div id="home">
       <NavBar />
-      <div className="grid md:grid-cols-2">
+      <div id="home" className="grid md:grid-cols-2">
         <div className="flex flex-col items-center justify-center h-screen lg:ml-[250px]">
           <h1 className="font-bold text-2xl text-red-600 uppercase">
             Welcome!!

@@ -19,3 +19,7 @@
         @apply flex space-x-2 font-bold ml-4;
     }
 }
+
+html {
+   scroll-behavior: smooth; 
+}

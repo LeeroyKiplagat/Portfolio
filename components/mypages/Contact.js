@@ -3,7 +3,7 @@ import { FaInstagram, FaGithub, FaGooglePlusG, FaLinkedinIn } from "react-icons/
 
 function Contact() {
   return (
-    <div className="h-screen">
+    <div className="h-screen" id="contact">
       <div className="title space-x-2">
         <h1 className="mt-24">Contact</h1>
         <h1 className="text-red-600 mt-24">Me</h1>

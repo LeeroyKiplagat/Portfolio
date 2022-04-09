@@ -2,7 +2,7 @@ import React from "react";
 
 function About() {
   return (
-    <div className="h-auto">
+    <div className="h-auto" id="about">
       <div className=" flex items-center justify-center space-x-2 ">
         <h1 className=" text-4xl font-bold mt-24 text-red-600">About</h1>
         <h1 className="text-4xl font-bold mt-24 ">Me</h1>
@@ -47,7 +47,7 @@ function About() {
                   <h2>:leeroykiplagat@gmail.com</h2>
                 </div>
                 <div className="flex justify-center">
-                  <button className="text-center border mb-4 rounded-xl p-1 bg-red-600 border-red-600 font-semibold text-base  md:text-md shadow-lg ">
+                  <button className="text-center border mb-4 rounded-xl p-1 px-4 bg-red-600 border-red-600 font-semibold text-base  md:text-md shadow-lg text-white ">
                     Download CV
                   </button>
                 </div>

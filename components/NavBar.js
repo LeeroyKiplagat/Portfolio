@@ -1,5 +1,5 @@
 import React from "react";
-import Link from "next/link";
+
 import {
   HomeIcon,
   PhoneIcon,
@@ -11,9 +11,9 @@ import { useRouter } from "next/router";
 import NavBarItem from "./NavBarItem";
 
 function NavBar() {
-  const router = useRouter();
+  
   return (
-    <nav className="flex items-center justify-center h-auto fixed z-10 w-screen ml-24 bg-white shadow-inner shadow-black">
+    <nav className="flex items-center justify-center h-auto fixed z-10 w-screen  bg-white shadow  shadow-gray-300">
       <div className="grid md:grid-cols-2">
         <div className=" flex items-center justify-center">
           <h1 className=" font-bold uppercase text-red-600 text-lg md:text-2xl lg:text-4xl">
@@ -22,13 +22,14 @@ function NavBar() {
         </div>
         <div className="flex flex-grow items-center justify-evenly max-w-2xl mt-4 ">
           <button>
-            <NavBarItem title="Home" Icon={HomeIcon} />
+            <NavBarItem title="home" Icon={HomeIcon} url="#home" />
           </button>
+      
 
-          <NavBarItem title="About" Icon={UserIcon} />
-          <NavBarItem title="Services" Icon={ServerIcon} />
-          <NavBarItem title="Projects" Icon={DocumentIcon} />
-          <NavBarItem title="Contact" Icon={PhoneIcon} />
+          <NavBarItem title="about" Icon={UserIcon} url="#about" />
+          <NavBarItem title="services" Icon={ServerIcon} url="#services" />
+          <NavBarItem title="projects" Icon={DocumentIcon} url="#project" />
+          <NavBarItem title="contact" Icon={PhoneIcon} url="#contact" />
         </div>
       </div>
     </nav>

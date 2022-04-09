@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 import Hulu from '../../public/images/hulu.png';
 import Spotify from '../../public/images/spotify.png';
 import Instagram from '../../public/images/instagram.png';
@@ -7,7 +8,7 @@ import Portfolio from '../../public/images/portfolio.png';
 
 function Project() {
   return (
-    <div className="h-auto">
+    <div className="h-auto" id="project">
       <div className="title space-x-2">
         <h1 className="text-red-600 mt-24">My</h1>
         <h1 className="mt-24">Projects</h1>
@@ -30,7 +31,9 @@ function Project() {
                 <h1>Title:</h1>
                 <h1>Instagram Clone</h1>
               </div>
-              <a href="" className="ml-4">Git repo of Instagram clone</a>
+              <Link href="https://leeroy-kiplagat-instagramclone.vercel.app">
+               <a className="ml-4">Git repo of Instagram clone</a>
+              </Link>
             </div>
             <div>
               <div className="project">

@@ -31,7 +31,7 @@ export default function Home() {
         <Project />
 
         {/** Contact */}
-        <Contact />
+        <Contact  />
 
         {/** Footer */}
       </div>
