@@ -1,10 +1,10 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import Hulu from '../../public/images/hulu.png';
-import Spotify from '../../public/images/spotify.png';
-import Instagram from '../../public/images/instagram.png';
-import Portfolio from '../../public/images/portfolio.png';
+import Hulu from "../../public/images/hulu.png";
+import Spotify from "../../public/images/spotify.png";
+import Instagram from "../../public/images/instagram.png";
+import Portfolio from "../../public/images/portfolio.png";
 
 function Project() {
   return (
@@ -24,7 +24,7 @@ function Project() {
                   alt="Instagram"
                   width={1920}
                   height={1200}
-                  className='rounded-md shadow-lg'
+                  className="rounded-md shadow-lg"
                 />
               </div>
               <div className="project-info">
@@ -32,59 +32,67 @@ function Project() {
                 <h1>Instagram Clone</h1>
               </div>
               <Link href="https://leeroy-kiplagat-instagramclone.vercel.app">
-               <a className="ml-4">Git repo of Instagram clone</a>
+                <a className="ml-4">Link to Instagram clone</a>
               </Link>
             </div>
             <div>
               <div className="project">
-              <Image
+                <Image
                   src={Spotify}
                   layout="responsive"
                   alt="Instagram"
                   width={1920}
                   height={1200}
-                  className='rounded-md shadow-lg'
+                  className="rounded-md shadow-lg"
                 />
               </div>
               <div className="project-info">
                 <h1 className="">Title:</h1>
                 <h1>Spotify Clone</h1>
               </div>
-              <a href="" className="ml-4">Git repo of Spotify clone</a>
+              <Link href="https://leeroy-kiplagat-spotify.vercel.app">
+                <a className="ml-4">Link to Spotify clone</a>
+              </Link>
             </div>
             <div>
               <div className="project">
-              <Image
+                <Image
                   src={Hulu}
                   layout="responsive"
                   alt="hulu"
                   width={1920}
                   height={1200}
-                  className='rounded-md shadow-lg mt-2'
+                  className="rounded-md shadow-lg mt-2"
                 />
               </div>
               <div className="project-info">
                 <h1>Title:</h1>
                 <h1>Hulu Clone</h1>
               </div>
-              <a href="" className="ml-4">Git repo of Hulu clone</a>
+              <Link href="https://hulu-clone-delta-umber.vercel.app" >
+                <a className="ml-4">
+                  Link to Hulu clone
+                </a>
+              </Link>
             </div>
             <div>
               <div className="project">
-              <Image
+                <Image
                   src={Portfolio}
                   layout="responsive"
                   alt="Portfolio"
                   width={1920}
                   height={1200}
-                  className='rounded-md shadow-lg mt-2 ease-in-out'
+                  className="rounded-md shadow-lg mt-2 ease-in-out"
                 />
               </div>
               <div className="project-info">
                 <h1>Title:</h1>
                 <h1>Portfolio Website</h1>
               </div>
-              <a href="" className="ml-4">Git repo of Portfolio</a>
+              <a href="" className="ml-4">
+                Git repo of Portfolio
+              </a>
             </div>
           </div>
         </div>
