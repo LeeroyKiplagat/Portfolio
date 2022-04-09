@@ -12,7 +12,7 @@ import NavBarItem from "./NavBarItem";
 
 function NavBar() {
   return (
-    <nav className="flex items-center justify-center h-auto fixed z-10 w-auto  bg-white shadow  shadow-gray-300">
+    <div className="flex items-center justify-center h-auto fixed z-10 w-auto  bg-white shadow  shadow-gray-300">
       <div className="grid md:grid-cols-3">
         <div className="md:ml-[300px] flex items-center justify-center ">
           <h1 className=" font-bold uppercase text-red-600 text-lg md:text-2xl lg:text-4xl">
@@ -28,7 +28,7 @@ function NavBar() {
           <NavBarItem title="contact" Icon={PhoneIcon} url="#contact" />
         </div>
       </div>
-    </nav>
+    </div>
   );
 }
 
